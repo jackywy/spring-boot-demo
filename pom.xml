@@ -38,6 +38,7 @@
         </dependency>
     </dependencies>
     <!--Package as a executable jar-->
+    <!--要创建可执行的jar，我们需要将spring-boot-maven-plugin添加到我们的pom.xml中。 在 dependencies标签 下方插入以下行：-->
     <build>
         <plugins>
             <plugin>
